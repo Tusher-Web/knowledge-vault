@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
 }
 
-.btn-green{
+.btn-green {
     padding: 12px 10px;
     background: #30B868;
     color: #fff;
@@ -26,11 +26,16 @@ body {
     border-radius: 5px;
     font-weight: 700;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 
-.btn-outline-white{
+.btn-green:hover {
+    background: #279c58;
+}
+
+.btn-outline-white {
     padding: 12px 10px;
-    background:none;
+    background: none;
     color: #fff;
     border: 2px solid #fff;
     font-size: 16px;
@@ -38,6 +43,12 @@ body {
     font-weight: 700;
     cursor: pointer;
     margin-left: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-white:hover {
+    background: #fff;
+    color: #30B868;
 }
 
 
@@ -47,7 +58,7 @@ body {
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 34px;
+    padding: 35px;
 }
 
 nav ul{
@@ -57,18 +68,13 @@ nav ul{
     gap: 32px;
     margin-top: 25px;
 }
-nav ul li{
-    
-}
+
 nav ul li a{
     text-decoration: none;
     color: #000;
     font-size: 16px;
     font-weight: bold;
 }
-nav ul li a:hover{}
-
-
 
 #banner{
     background: url('./images/hero-bg.png'), #001931;
