@@ -83,9 +83,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
 }
-.bannerContent{
 
-}
 .bannerContent h1{
     color: #fff;
     font-size: 84px;
@@ -135,7 +133,6 @@ nav ul li a{
 #card{
     margin-top: 170px;
 }
-.cards-information{}
 .cards-information h2{
     font-size: 48px;
     font-weight: bold;
@@ -197,6 +194,7 @@ nav ul li a{
 .brain-solution span{
     text-transform: uppercase;
     color: #30B868;
+    font-weight: 400;
 }
 .brain-solution h2{
     font-size: 48px;
