@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-button{
-    margin: 0;
-    padding: 0;
-}
 
 body {
   font-family: "Inter", sans-serif;
@@ -21,14 +17,6 @@ body {
     margin: 0 auto;
 }
 
-
-
-/* Section CSS */
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 34px;
-}
 .btn-green{
     padding: 12px 10px;
     background: #30B868;
@@ -51,10 +39,17 @@ body {
     cursor: pointer;
     margin-left: 16px;
 }
-.navbar .logo{
 
+
+
+
+/* Section CSS */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 34px;
 }
-nav{}
+
 nav ul{
     list-style: none;
     display: flex;
@@ -78,8 +73,7 @@ nav ul li a:hover{}
 #banner{
     background: url('./images/hero-bg.png'), #001931;
     height: 674px;
-
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -126,9 +120,10 @@ nav ul li a:hover{}
 }
 
 .banner-button{
-    width: 390px;
+    width: 435px;
     margin: 35px auto 0 auto;
 }
+
 
 /* Card Section CSS */
 #card{
@@ -151,6 +146,7 @@ nav ul li a:hover{}
     margin-top: 44px;
     display: flex;
     justify-content: space-around;
+    gap: 24px;
 }
 .card{
     width: 322px;
@@ -244,6 +240,34 @@ nav ul li a:hover{}
 }
 
 /* Footer Section */
-.{}
-.{}
-.{}
+#knowledge-volt-footer{
+    background: #001931;
+}
+.knowledge-volt-section{
+   margin-top: 100px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 80px 0;
+}
+
+
+.social-links{
+    color: #fff;
+   
+}
+.social-links h4{
+    margin-bottom: 16px;
+}
+.social-links img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-right: 16px;
+}
+.footer-text p{
+    padding: 30px 0;
+    color: #fafafa;
+    text-align: center;
+}
