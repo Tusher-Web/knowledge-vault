@@ -188,7 +188,7 @@ nav ul li a:hover{}
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
     margin-top: 100px;
 }
 .brain-solution{}
@@ -204,6 +204,8 @@ nav ul li a:hover{}
 .brain-solution p{
     color: #627382;
     margin-bottom: 16px;
+    text-align: left;
+    line-height: 20px;
 }
 .brain-solution ul{
     list-style: none;
@@ -240,6 +242,8 @@ nav ul li a:hover{}
 .cta-section-content button{
     margin: 16px 0 24px 0;
 }
+
+/* Footer Section */
 .{}
 .{}
 .{}
