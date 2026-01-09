@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+button{
+    margin: 0;
+    padding: 0;
+}
 
 body {
   font-family: "Inter", sans-serif;
@@ -95,6 +99,7 @@ nav ul li a:hover{}
     font-size: 18px;
     color: #fff;
     text-align: center;
+    line-height: 24px;
     /* margin-top: 32px; */
 }
 .earlyAccess{
@@ -124,3 +129,48 @@ nav ul li a:hover{}
     width: 390px;
     margin: 35px auto 0 auto;
 }
+
+/* Card Section CSS */
+#card{
+    margin-top: 170px;
+}
+.cards-information{}
+.cards-information h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.cards-information p{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+}
+.card-section{}
+.card{
+    width: 322px;
+    height: 300px;
+    box-shadow: 2px 2px 2px 2px #627382;
+}
+.card-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card h3{
+    margin: 16px 0;
+}
+.card p{
+    font-size: 16px;
+    color: #627382;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
